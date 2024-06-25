@@ -1,0 +1,22 @@
+{
+	"name": "@stormymcstorm/bungie-api",
+	"version": "0.0.0",
+	"description": "An opinionated wrapper around the Bungie API",
+	"author": "Carson Storm <carson.storm@outlook.com>",
+	"license": "MIT",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc --project tsconfig.build.json",
+		"clean": "rm -rf dist",
+		"test": "jest --coverage"
+	},
+	"devDependencies": {
+		"@jest/globals": "^29.7.0",
+		"@types/jest": "^29.5.12",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.1.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.2"
+	}
+}
